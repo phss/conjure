@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+rake -f $CONJURE_HOME/library/$1.cj $1 param=$2 $3
